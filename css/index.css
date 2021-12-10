@@ -1,0 +1,53 @@
+.login_form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.login_form div {
+  padding: 10px;
+}
+
+.submit_btn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightgray;
+  font-weight: bold;
+  width: 150px;
+}
+
+.login_form label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+.login_form input {
+  height: 20px;
+  width: 200px;
+}
+
+body > div > form > div.message > div {
+  background-color: red;
+  border-radius: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.submit_btn:hover {
+  transition: 0.2s;
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+.active {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
